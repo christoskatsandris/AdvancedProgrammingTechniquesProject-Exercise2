@@ -9,12 +9,12 @@ class SubtractorTest {
 	@Test
 	void testPositive() {
 		Subtractor tester = new Subtractor();
-		assertEquals("POSITIVE", tester.subtract(15, 5));
+		assertEquals("POSITIVE", tester.subtract(10, 5));
 	}
 	@Test
 	void testNegative() {
 		Subtractor tester = new Subtractor();
-		assertEquals("NEGATIVE", tester.subtract(5, 15));
+		assertEquals("NEGATIVE", tester.subtract(5, 10));
 	}
 	@Test
 	void testZero() {
